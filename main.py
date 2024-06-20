@@ -10,24 +10,24 @@
 # print(type(todos))
 
 
-user_prompt="Enter a todo:"
-todos = []
-while True:
-    todo = input(user_prompt)
-    print(todo.capitalize())
-    # capitalize is used to change the first letter to the capital
-    todos.append(todo)
-    # append method is used to append the items at the end of list
-
-    print(todos)
-
-
-user_prompt="Enter aTodo"
-todos = []
-while True:
- todo = input(user_prompt)
-    print(todo.title())
-    # title() helps that each word in the string will be capitalize
-    todos.append(todo)
-
+# user_prompt="Enter a todo:"
+# todos = []
+# while True:
+#     todo = input(user_prompt)
+#     print(todo.capitalize())
+#     # capitalize is used to change the first letter to the capital
+#     todos.append(todo)
+#     # append method is used to append the items at the end of list
+#
+#     print(todos)
+#
+#
+# user_prompt="Enter aTodo"
+# todos = []
+# while True:
+#  todo = input(user_prompt)
+#     print(todo.title())
+#     # title() helps that each word in the string will be capitalize
+#     todos.append(todo)
+#
 
